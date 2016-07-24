@@ -1,6 +1,6 @@
 {
   "name": "babel-npm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An babeled npm to install and transform dependencies for old node",
   "main": "./lib",
   "scripts": {

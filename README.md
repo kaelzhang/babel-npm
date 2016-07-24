@@ -14,19 +14,27 @@
 
 # babel-npm
 
-<!-- description -->
+An babeled npm to install and transform dependencies for old node.
+
+**NOT DONE YET, CONTRIBUTION WANTED**
 
 ## Install
 
 ```sh
-$ npm install babel-npm --save
+$ npm i -g babel-npm
 ```
 
 ## Usage
 
-```js
-let babel_npm = require('babel-npm')
+Write package `foo` in es6, es7 with package field `engines.node` >= 6.0.0.
+
+If we install `foo` with node 4
+
+```sh
+babel-npm install foo --save
 ```
+
+It works!
 
 ## License
 
