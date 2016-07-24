@@ -1,17 +1,22 @@
 {
   "name": "babel-npm",
-  "version": "1.0.0",
-  "description": "babel-npm",
+  "version": "0.0.0",
+  "description": "An babeled npm to install and transform dependencies for old node",
   "main": "./lib",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js && ava"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/kaelzhang/babel-npm.git"
   },
   "keywords": [
-    "babel-npm"
+    "babel-npm",
+    "npm",
+    "package",
+    "manager",
+    "babel",
+    "future"
   ],
   "engines": {
     "node": ">=0.10.0"
